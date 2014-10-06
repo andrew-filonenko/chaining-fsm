@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/andrew-filonenko/chaining-fsm/issues"
   },
-  "homepage": "https://github.com/andrew-filonenko/chaining-fsm"
+  "homepage": "https://github.com/andrew-filonenko/chaining-fsm",
+  "dependencies": {
+    "eventemitter3": "^0.1.5",
+    "inherits": "^2.0.1"
+  }
 }

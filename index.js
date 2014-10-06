@@ -1,5 +1,5 @@
-var util         = require('util');
-var EventEmitter = require('events').EventEmitter;
+var EventEmitter = require('eventemitter3');
+var inherits = require('inherits');
 
 function Fsm(states, initial) {
 
