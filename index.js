@@ -115,28 +115,5 @@ function fsm(initialState) {
   return self;
 }
 
-
-function test() {
-  window.fsm = fsm;
-
-  var testfsm = fsm('bar')
-        .state('foo')
-        .event('a', 'bar')
-        .event('ouch', 'bar')
-        .event('*', function () {
-          console.log('ho ho ho');
-          console.log('this.currentState:', this.currentState);
-          console.log('this.eventName:', this.eventName);
-        })
-
-        .state('bar')
-        .event('bazz', 'foo')
-        .event('a', 'foo')
-
-        .state('*')
-        .event('z', 'foo')
-        .run();
-}
-
 fsm.Fsm = Fsm;
 module.exports = fsm;
