@@ -25,7 +25,7 @@ function Fsm(states, initial) {
 
 }
 
-util.inherits(Fsm, EventEmitter);
+inherits(Fsm, EventEmitter);
 
 
 Fsm.prototype.handle = function (eventName, payload) {

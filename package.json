@@ -1,6 +1,6 @@
 {
   "name": "chaining-fsm",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "An embedded method-chain interface for creating finite state machines.",
   "main": "index.js",
   "scripts": {
