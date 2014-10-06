@@ -1,0 +1,20 @@
+{
+  "name": "simple-fsm",
+  "version": "0.0.0",
+  "description": "An embedded method-chain interface for creating finite state machines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:andrey_filonenko/simple-fsm"
+  },
+  "keywords": [
+    "fsm",
+    "machine",
+    "statemachine"
+  ],
+  "author": "Andrey Filonenko",
+  "license": "ISC"
+}
